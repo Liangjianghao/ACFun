@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+
+# Define here the models for your scraped items
+#
+# See documentation in:
+# https://doc.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+class Ac2018Item(scrapy.Item):
+    # define the fields for your item here like:
+    title = scrapy.Field()
+    video_cover = scrapy.Field()
+    videoUrl = scrapy.Field()
+    video_author = scrapy.Field()
+    video_uploadtime = scrapy.Field()
+    playNum = scrapy.Field()
+    danmuNum = scrapy.Field()
+    comments = scrapy.Field()
+    saveNum = scrapy.Field()
+    xjNum = scrapy.Field()
+    video_type = scrapy.Field()
+    danmu_id = scrapy.Field()
+    score = scrapy.Field()
+
+    pass
